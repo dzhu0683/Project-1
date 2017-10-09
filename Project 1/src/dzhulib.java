@@ -14,11 +14,11 @@ public class dzhulib
 		Scanner integer = new Scanner(System.in);
 		System.out.print("Enter an interger.");
 		int a = integer.nextInt();
-		System.out.println("Enter a range.")
+		System.out.println("Enter a range.");
 		int b = integer.nextInt();
-		for(int x = 1, x <= b, x++)
+		for(int c = 1; c <= b; c++)
 		{
-			a = a * x;
+			a = a * c;
 			System.out.println(a + " ");
 		}
 	}
