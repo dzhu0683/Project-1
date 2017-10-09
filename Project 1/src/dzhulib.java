@@ -20,8 +20,8 @@ public class dzhulib
 		int b = integer.nextInt();
 		for(int c = 1; c <= b; c++)
 		{
-			a = a * c;
-			System.out.println(a + " ");
+			int d = a * c;
+			System.out.println(d + " ");
 		}
 	}
 }
