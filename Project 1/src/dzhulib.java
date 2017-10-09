@@ -13,15 +13,16 @@ public class dzhulib
 	}
 	public static void multiplicationTable()
 	{
-		Scanner integer = new Scanner(System.in);
+		Scanner sc = new Scanner(System.in);
 		System.out.print("Enter an interger.");
-		int a = integer.nextInt();
+		int a = sc.nextInt();
 		System.out.println("Enter a range.");
-		int b = integer.nextInt();
+		int b = sc.nextInt();
+		int num = 0;
 		for(int c = 1; c <= b; c++)
 		{
-			int d = a * c;
-			System.out.println(d + " ");
+			num = a*c;
+			System.out.println(num + " ");
 		}
 	}
 }
