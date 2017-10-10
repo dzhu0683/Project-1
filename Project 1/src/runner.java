@@ -4,6 +4,7 @@ public class runner
 	public static void main(String [] args)
 	{
 		//dzhulib.multiplicationTable();
-		System.out.println(hnilib.sumUpTo(5));
+		dzhulib.dateStr();
+		//System.out.println(hnilib.sumUpTo(5));
 	}
 }

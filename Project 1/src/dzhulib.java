@@ -6,8 +6,10 @@ public class dzhulib
 		Scanner sc = new Scanner(System.in);
 		System.out.print("Input date in the format mm/dd/yyyy.");
 		String old = sc.nextLine();
-		
-		
+		String a = old.substring(0, 2);
+		String b = old.substring(3, 5);
+		String c = old.substring(6, 10);
+		System.out.print(b + "-" + a + "-" + c);
 	}
 	public static void cutOut()
 	{
