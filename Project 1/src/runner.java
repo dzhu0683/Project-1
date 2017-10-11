@@ -7,6 +7,8 @@ public class runner
 		//dzhulib.dateStr();
 		//dzhulib.cutOut();
 		//hnilib.sumUpTo(5);
-		hnilib.isPalidrome();
+		//hnilib.isPalidrome();
+		//hnilib.isFibonnaci();
+		hnilib.isPerfectSquare(5);
 	}
 }
