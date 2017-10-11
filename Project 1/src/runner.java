@@ -5,7 +5,8 @@ public class runner
 	{
 		//dzhulib.multiplicationTable();
 		//dzhulib.dateStr();
-		//System.out.println(hnilib.sumUpTo(5));
+		//dzhulib.cutOut();
+		//hnilib.sumUpTo(5);
 		hnilib.isPalidrome();
 	}
 }

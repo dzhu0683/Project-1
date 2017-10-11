@@ -13,7 +13,12 @@ public class dzhulib
 	}
 	public static void cutOut()
 	{
-		
+		Scanner sc = new Scanner(System.in);
+		System.out.print("Input a mainStr.");
+		String a = sc.nextLine();
+		System.out.print("Input a subStr.");
+		String b = sc.nextLine();
+		System.out.print(a + " ");
 	}
 	public static void multiplicationTable()
 	{
