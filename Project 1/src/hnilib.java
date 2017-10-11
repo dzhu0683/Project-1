@@ -24,16 +24,7 @@ public class hnilib
 	public static boolean isPerfectSquare(int x) 
 	{
 		int y = (int) Math.sqrt(x);
-		int z = (int) y;
-		if(Math.pow(z, 2) == (Math.pow(y, 2))) 
-		{				
-			return true;
-			
-		} 
-		else 
-		{
-			return false;
-		}
+		return (y * y == x);
 	}
 	public static void isFibonnaci() 
 	{
@@ -42,13 +33,13 @@ public class hnilib
 		int x = sc.nextInt();
 		int pol = ((5 * x * x) - 4);
 		int tst = ((5 * x * x) + 4);
-		if((isPerfectSquare(tst) == true) && ((isPerfectSquare(pol) == true))) 
+		if((isPerfectSquare(tst) == true) || ((isPerfectSquare(pol) == true))) 
 		{
 			System.out.println("This integer is in the Fibonnaci Sequence");
 		} 
 		else 
 		{ 
-			System.out.println("This integer is no in the Fibonnaci Sequence");
+			System.out.println("This integer is not in the Fibonnaci Sequence");
 		}
 	}
 }
