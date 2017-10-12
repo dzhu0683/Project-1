@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class hnilib 
+public class anilib 
 {
 	public static void sumUpTo(int x) 
 	{

@@ -6,8 +6,8 @@ public class runner
 		//dzhulib.multiplicationTable();
 		//dzhulib.dateStr();
 		//dzhulib.cutOut();
-		//hnilib.sumUpTo(5);
-		//hnilib.isPalidrome();
-		hnilib.isFibonnaci();
+		//anilib.sumUpTo(5);
+		//anilib.isPalidrome();
+		anilib.isFibonnaci();
 	}
 }
