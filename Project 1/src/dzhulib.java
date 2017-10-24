@@ -21,7 +21,7 @@ public class dzhulib
 		String a = sc.nextLine();
 		System.out.print("Input a subStr.");
 		String b = sc.nextLine();
-		String c = a.replaceFirst("b", " ");
+		String c = a.replaceFirst(b, "");
 		System.out.print(c + " ");
 	}
 	public static void multiplicationTable()
