@@ -1,3 +1,6 @@
+//Andy Ni Period 2
+//10/24/17
+
 import java.util.Scanner;
 public class anilib 
 {

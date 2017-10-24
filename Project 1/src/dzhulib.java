@@ -1,3 +1,6 @@
+//Darren Zhu Period 2
+//10/24/17
+
 import java.util.Scanner;
 public class dzhulib 
 {
@@ -18,7 +21,8 @@ public class dzhulib
 		String a = sc.nextLine();
 		System.out.print("Input a subStr.");
 		String b = sc.nextLine();
-		System.out.print(a + " ");
+		String c = a.replaceFirst("b", " ");
+		System.out.print(c + " ");
 	}
 	public static void multiplicationTable()
 	{

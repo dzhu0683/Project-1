@@ -5,9 +5,9 @@ public class runner
 	{
 		//dzhulib.multiplicationTable();
 		//dzhulib.dateStr();
-		//dzhulib.cutOut();
+		dzhulib.cutOut();
 		//anilib.sumUpTo(5);
 		//anilib.isPalidrome();
-		anilib.isFibonnaci();
+		//anilib.isFibonnaci();
 	}
 }
