@@ -14,15 +14,22 @@ public class dzhulib
 		String c = old.substring(6, 10);
 		System.out.print(b + "-" + a + "-" + c);
 	}
-	public static void cutOut()
+	public static String cutOut()
 	{
 		Scanner sc = new Scanner(System.in);
 		System.out.print("Input a mainStr.");
 		String a = sc.nextLine();
 		System.out.print("Input a subStr.");
 		String b = sc.nextLine();
-		String c = a.replaceFirst(b, "");
-		System.out.print(c + " ");
+		String c = "";
+		for(int x=0; x <= a.length(); x++)
+		{
+			if(a.substring(x, x + b.length()-1).equals(b))
+			{
+				c += (a.substring(0,x)) + (a.substring((x+b.length()-1),a.length()));
+			}
+		}
+		return c;
 	}
 	public static void multiplicationTable()
 	{
