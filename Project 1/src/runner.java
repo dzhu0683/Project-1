@@ -6,7 +6,7 @@ public class runner
 	{
 		//dzhulib.multiplicationTable();
 		//dzhulib.dateStr();
-		dzhulib.cutOut();
+		System.out.println(dzhulib.cutOut());
 		//anilib.sumUpTo(5);
 		//anilib.isPalidrome();
 		//anilib.isFibonnaci();
