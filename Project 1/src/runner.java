@@ -5,7 +5,7 @@ public class runner
 	public static void main(String [] args)
 	{
 		//dzhulib.multiplicationTable();
-		//dzhulib.dateStr();
+		//System.out.println(dzhulib.dateStr());
 		System.out.println(dzhulib.cutOut());
 		//anilib.sumUpTo(5);
 		//anilib.isPalidrome();

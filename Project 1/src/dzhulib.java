@@ -4,7 +4,7 @@
 import java.util.Scanner;
 public class dzhulib 
 {
-	public static void dateStr()
+	public static String dateStr()
 	{
 		Scanner sc = new Scanner(System.in);
 		System.out.print("Input date in the format mm/dd/yyyy.");
@@ -12,7 +12,8 @@ public class dzhulib
 		String a = old.substring(0, 2);
 		String b = old.substring(3, 5);
 		String c = old.substring(6, 10);
-		System.out.print(b + "-" + a + "-" + c);
+		String d = b + "-" + a + "-" + c;
+		return d;
 	}
 	public static String cutOut()
 	{
