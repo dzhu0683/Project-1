@@ -18,18 +18,21 @@ public class dzhulib
 	{
 		Scanner sc = new Scanner(System.in);
 		System.out.print("Input a mainStr.");
-		String a = sc.nextLine();
+		String line = sc.nextLine();
 		System.out.print("Input a subStr.");
-		String b = sc.nextLine();
-		String c = "";
-		for(int x=0; x <= a.length(); x++)
+		char remove = sc.next().charAt(0);
+		for(int i = 0; i <= line.length();i++)
 		{
-			if(a.substring(x, x + b.length()-1).equals(b))
+			char ch = line.charAt(i);
+			if( remove == ch)
 			{
-				c += (a.substring(0,x)) + (a.substring((x+b.length()-1),a.length()));
+				String before = line.substring(0,i);
+				String after = line.substring(i + 1);
+				line = before + after;
+				break;
 			}
 		}
-		return c;
+		return line;
 	}
 	public static void multiplicationTable()
 	{
